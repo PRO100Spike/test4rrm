@@ -1,0 +1,21 @@
+{
+  "name": "test4rrm",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Yakushew Anton <spike2work@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

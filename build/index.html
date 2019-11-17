@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Я собираю проекты как рок звезда</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<section class="header">
+    <h1>Test task for RedRocketMedia</h1>
+</section>
+
+<section class="content">
+    <div class="wrapper" id="brogressbarComponent">
+        <div class="progress-bar">
+            <span class="progress-bar-fill" style="width: 1%" data-progress-val="1">1%</span>
+        </div>
+    
+        <select class="progress-bar__select" id="selectProgressbar">
+            <option value="8">8%</option>
+            <option value="16">16%</option>
+            <option value="32">32%</option>
+            <option value="64">64%</option>
+        </select>
+    
+        <button id="go">Go!</button>
+    
+    </div>
+
+    <!--[if lte IE 7]><style>#reviewStars-input{display:none}</style><![endif]-->
+    
+    <div class="review__block" id="reviewStarsComponent">
+        <input id="star-5" type="radio" name="reviewStars" data-val="5" />
+        <label title="gorgeous" for="star-5"></label>
+    
+        <input id="star-4" type="radio" name="reviewStars" data-val="4" />
+        <label title="good" for="star-4"></label>
+    
+        <input id="star-3" type="radio" name="reviewStars" data-val="3" />
+        <label title="regular" for="star-3"></label>
+    
+        <input id="star-2" type="radio" name="reviewStars" data-val="2" />
+        <label title="poor" for="star-2"></label>
+    
+        <input id="star-1" type="radio" name="reviewStars" data-val="1" />
+        <label title="bad" for="star-1"></label>
+    
+        <div class="votes-count">
+            <div class="container">
+                <div class="item-1"></div>
+                <div class="item-2"></div>
+                <div class="item-3"></div>
+                <div class="item-4"></div>
+                <div class="item-5"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="header">
+    <p>© «Procyon», 2019 - <a href="https://github.com/PRO100Spike" alt="Создать сайт">Мой github</a></p>
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
